@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise Pollution Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WeatherWise Pollution Data</h1>
+    </header>
+    <main>
+        <form id="pollutionForm">
+            <input type="number" id="aqi" placeholder="AQI Value" required>
+            <input type="number" id="coAqi" placeholder="CO AQI Value" required>
+            <input type="number" id="ozoneAqi" placeholder="Ozone AQI Value" required>
+            <input type="number" id="no2Aqi" placeholder="NO2 AQI Value" required>
+            <input type="number" id="pm25Aqi" placeholder="PM2.5 AQI Value" required>
+            <button type="submit">Submit Pollution Data</button>
+        </form>
+        <div id="responseMessage"></div>
+    </main>
+    <footer>
+        <p>© 2024 WeatherWise</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
